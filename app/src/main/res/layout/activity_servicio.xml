@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Servicio de reproducción de música"/>
+    <Button android:id="@+id/btnintent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi intent service"
+        android:onClick="miintentservice"/>
+    <Button android:id="@+id/botonv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anuncio"
+        android:onClick="millamado"/>
+    <Button android:id="@+id/boton_arrancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrancar servicio"/>
+    <Button android:id="@+id/boton_detener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detener servicio"/>
+</LinearLayout>
